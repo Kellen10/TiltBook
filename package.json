@@ -1,0 +1,29 @@
+{
+  "name": "tilt-book",
+  "description": "A 3D book that tilts toward the cursor, built on the FlippableTiltCard motion from nextjs-css-agent-components. Cover art comes from the Open Library Covers API.",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 10001",
+    "build": "next build",
+    "start": "PORT=10001 next start",
+    "format": "prettier --write \"**/*.{tsx,ts,js,css,json,md}\"",
+    "format:check": "prettier --check \"**/*.{tsx,ts,js,css,json,md}\""
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.2"
+  }
+}
